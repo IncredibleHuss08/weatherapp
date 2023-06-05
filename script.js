@@ -44,6 +44,9 @@ document.addEventListener('DOMContentLoaded', function() {
             .catch(() => {
                 alert('Please enter a valid city name');
             });
+
+            // Set the SameSite attribute of the cookie to None and include the Secure attribute
+    document.cookie = `city=${city}; SameSite=None; Secure`;
     }
 
     // Event listener for button click
