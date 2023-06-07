@@ -1,4 +1,4 @@
-# Weather App
+# WeatherWise
 
 Welcome to the Weather App! This web application allows you to search for weather information for any location around the world.
 
